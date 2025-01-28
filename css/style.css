@@ -1,0 +1,251 @@
+/* Common CSS Start */
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* Common CSS End */
+
+/* Header Start */
+header {
+    padding: 30px 0;
+}
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo {
+    float: left;
+    width: 12%;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    float: right;
+    width: 70%;
+}
+.menu ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a {
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: 0.33s linear;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    color: #626262;
+    border-bottom: 1px solid #626262;
+}
+/* Header End */
+
+/* Banner Start */
+.banner{ 
+} 
+.b_img{}
+.b_img img {
+    width: 100%;
+}
+/* Banner End */
+
+/* Article Start */
+.article {
+    padding: 100px 0 80px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+}
+.a_content .ac_link {
+    display: inline-block;
+    font-family: "Ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.a_content .ac_h1 {
+    margin: 30px 0 40px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.a_content .ac_p {
+    line-height: 24px;
+}
+.a_content .comment {
+    margin-top: 45px;
+}
+/* Article End */
+
+/* Blog Start */
+.blog {
+    padding: 80px 0;
+}
+.b_content {
+    overflow: hidden;
+}
+.single_blog {
+    width: 45%;
+    float: left;
+    margin: 0 2.5%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.single_blog:nth-child(2n) {
+    margin-right: 0;
+}
+.sb_img {
+    margin-bottom: 25px;
+}
+.sb_img img {
+    width: 100%;
+}
+.b_link {
+    display: inline-block;
+    font-family: "Ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.b_h2 {
+    margin: 20px 0 15px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.b_p {
+    line-height: 24px;
+}
+/* Blog End */
+
+/*news start*/
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.signup .b_h2{
+    color: #333333;
+    margin-top:0 ;
+    margin-bottom: 70px;
+}
+
+.s_form{
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    width: 300px;
+    height:45px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: transparent;
+    padding-left:5px ;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+.s_form button:focus{
+    outline: none;
+}
+.s_form button img{}
+/*news end*/
+
+/* Blog Start */
+.blog {
+    padding: 80px 0;
+}
+.b_content {
+    overflow: hidden;
+}
+.single_blog {
+    width: 45%;
+    float: left;
+    margin: 0 2.5%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.single_blog:nth-child(2n) {
+    margin-right: 0;
+}
+.sb_img {
+    margin-bottom: 25px;
+}
+.sb_img img {
+    width: 100%;
+}
+.b_link {
+    display: inline-block;
+    font-family: "Ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.b_h2 {
+    margin: 20px 0 15px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.b_p {
+    line-height: 24px;
+}
+/* Blog End */
+
+/* Load More Button */
+.load-more-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.load-more {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.load-more:hover {
+    background: #f0f0f0;
+}
+
